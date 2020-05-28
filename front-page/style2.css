@@ -1,0 +1,25 @@
+#slideL {
+  z-index:100;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  left: -400px;
+  width: 400px;
+  height: auto;
+  padding: 0 40px 0 0;
+  background: #999;
+}
+#slideL .slide-inner {
+  overflow: auto;
+  overflow-x: hidden;
+  background: #ddd;
+}
+.bg{
+  background-color: aqua;
+  position: fixed;
+  width:2000px;
+  top: 0;
+  left: -2000px;
+  width: 400px;
+  height: 100vh;
+}
