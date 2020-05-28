@@ -175,7 +175,8 @@ main{
 
 .page-numbers{
   border: 1px solid #707070;
-  padding: 1em;
+  padding: 1%;
+  margin:1%;
   color: #707070;
 }
 
@@ -194,6 +195,7 @@ main{
 .gray{
   padding-right: 2%;
   font-weight: bold;
+  color: #707070;
 }
 
 .nav-links{
@@ -351,10 +353,13 @@ $tab:834px;
     .page-numbers{
       border: 1px solid #707070;
       margin:1%;
+      padding: 3%;
       color: #707070;
     }
 
-    
+    .nav-links{
+      width: 40%;
+    }
     .prev,.next{
       color: #707070;
       font-size:6rem;

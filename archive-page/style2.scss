@@ -194,6 +194,7 @@ main{
 .gray{
   padding-right: 2%;
   font-weight: bold;
+  color: #707070;
 }
 
 .nav-links{
@@ -354,6 +355,9 @@ $tab:834px;
       color: #707070;
     }
 
+    .nav-links{
+      width: 40%;
+    }
     
     .prev,.next{
       color: #707070;
