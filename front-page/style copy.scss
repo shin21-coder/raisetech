@@ -5,6 +5,7 @@ img{
 html{
   font-size: 62.5%;
   font-family: M + 1m;
+  overflow: hidden;
 }
 
 
@@ -395,7 +396,7 @@ margin:2em;
        }
 
        .header__bg{
-        width:834px;
+        // width:834px;
         height: 285px;
 
         &-title{

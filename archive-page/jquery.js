@@ -2,7 +2,7 @@ $(function () {
   let body = $(document.body);
   $('.slide-target').on('click', function () {
     $('.side-menu').toggleClass('open');
-    $('.side-menu').show();
+    // $('.side-menu').show();
     $('.side-menu').animate({'marginRight':'284px'},300)
     $(body).toggleClass('open');
 
@@ -10,8 +10,13 @@ $(function () {
   $('.side-menu__icon').on('click', function () {
     $('.side-menu').animate({ 'marginRight': '0' }, 300)
     $('.side-menu').toggleClass('open');
-    $('.side-menu').hide();
+    // $('.side-menu').hide();
+    
     $(body).toggleClass('open');
 
   })
+
+  // if ($(body).width() > 780) {
+  //   $('.side-menu').show();
+  // }
  });

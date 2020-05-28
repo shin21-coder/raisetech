@@ -7,6 +7,7 @@ img {
 html {
   font-size: 62.5%;
   font-family: M1m;
+  overflow: hidden;
 }
 
 body {
@@ -388,7 +389,6 @@ header {
     cursor: pointer;
   }
   .header__bg {
-    width: 834px;
     height: 285px;
   }
   .header__bg-title {

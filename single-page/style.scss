@@ -6,6 +6,7 @@ img{
 html{
   font-size: 62.5%;
   font-family: M + 1m;
+  overflow: hidden;
 }
 
 
@@ -252,9 +253,7 @@ button{
 
 // .side-menu
 
-#side{
-  display: block;
-}
+
 
 .side-menu {
   position: absolute;
@@ -265,7 +264,7 @@ button{
   background-color: #F2EDE9;
   width:calc(100% - 70%) ;
   margin-right: 0;
-  display: block;
+  // display: block;
 
 
 
@@ -391,7 +390,7 @@ $tab:834px;
 
       z-index: 10;
       width: 50%;
-      display: none;
+      // display: none;
      
    
    
@@ -468,7 +467,7 @@ $iphone:375px;
   width: 90%;
 }
 .side-menu{
-// width: 80%;
+width: 80%;
 transition: ease-in-out;
 }
 
